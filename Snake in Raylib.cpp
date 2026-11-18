@@ -146,6 +146,7 @@ int main(void)
     // De-Initialization
     //--------------------------------------------------------------------------------------
     CloseWindow();        // Close window and OpenGL context
-    std::cout << "SCORE: " << score;
+    std::cout << "SCORE: " << score << std::endl;
+    system("pause");
     return 0;
 }
